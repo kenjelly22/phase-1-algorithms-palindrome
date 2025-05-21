@@ -9,31 +9,23 @@ function isPalindrome(word) {
 /* 
   Add your pseudocode here
 
-  Input: String
-    - Function takes string as argument.
+  Reverse the argument of string
 
-  Determine if string is a palindrome.
-    - .split string into individual letters and return an array
-    - reverse array
-    - re-join the individual letters to get the original work in reverse
-    - Use if/else to compare original word and reversed word
-
-  Output: Boolean
-    - Returns True if String is a palindrome
-      - if original word === reversed word = true
-    - Returns False if String is not a Palindrome
-      - if original word !== reversed word = false
-*/
+  if reversed word matches original word 
+    return true
+    else if reversed word does not match original word
+      return false
 
 /*
   Add written explanation of your solution here.
 
-  Took the argument of string and split into an array of it's individual letters. 
-  Reversed the letters in the array.
-  Rejoined array of reversed letters to return a string
+  Took the argument of string and split into an array of its individual letters. 
+  Reversed the letters using .reverse method and returned an array of the 
+  individual letters in reverse.
+  Rejoined array of reversed letters to return a new string
   Used if/else statement to compare the original 'word' vs the 'reversed' word.
-    - If the original and reversed words match = true.
-    - If the original and reversed words do not match = false.
+    - If the original and reversed words match returned true.
+    - If the original and reversed words do not match returned false.
 */
 
 // You can run `node index.js` to view these console logs
